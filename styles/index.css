@@ -5,7 +5,8 @@
 
 body {
     height: 100vh;
-    background-color: #333333;
+    background: rgb(8,23,52);
+    background: linear-gradient(90deg, rgba(8,23,52,1) 40%, rgba(23,76,254,1) 51%, rgba(42,28,64,1) 60%);
     color: #ffffff;
     display: flex;
     flex-direction: column;
@@ -24,7 +25,7 @@ body {
     background-image: url(../img/space.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     font-size: 18px;
 }
 
@@ -69,6 +70,10 @@ body {
     border: 10px;
     text-transform: uppercase;
     
+}
+
+.operation_label {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .operation > input {
