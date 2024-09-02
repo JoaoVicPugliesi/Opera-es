@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: #333333;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    height: 500px;
+    width: 700px;
+    background-image: url(../img/space.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 18px;
+}
+
+.user_numbers {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.user_label {
+    background-color: #dcd2d2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 5px;
+    color: #6B12B8;
+}
+
+.input_number {
+    background-color: #333333;
+    color: #ffffff;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 0px 20px 0px 10px ;
+}
+
+.choices {
+    display: flex;
+    flex-direction: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.operation {
+    background-color: #6B12B8;
+    color: #ffffff;
+    padding: 2px;
+    margin-left: 5px;
+    border: 10px;
+    text-transform: uppercase;
+    
+}
+
+.operation > input {
+    cursor: pointer;
+}
+
+.button {
+    background-color: #333333;
+    color: white;
+    border: 3px solid #6B12B8;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.button:hover {
+    transition: 0.3s;
+    background-color: #6B12B8;
+    color: #ebe309;
+}
